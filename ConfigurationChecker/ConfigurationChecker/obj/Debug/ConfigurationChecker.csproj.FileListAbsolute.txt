@@ -1,1 +1,2 @@
 C:\GitRepositories\MetricsAnalyzer\ConfigurationChecker\ConfigurationChecker\bin\Debug\ConfigurationChecker.exe.config
+C:\GitRepositories\ConfigurationChecker\ConfigurationChecker\ConfigurationChecker\bin\Debug\ConfigurationChecker.exe.config
