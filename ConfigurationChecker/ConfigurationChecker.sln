@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationChecker", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInfoReader", "AssemblyInfoReader\AssemblyInfoReader.csproj", "{5D9C1DD1-8165-4E8F-8C36-5F7772B378F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInfoReaderTests", "AssemblyInfoReaderTests\AssemblyInfoReaderTests.csproj", "{780F9843-E508-450A-BAFD-344929A735F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D9C1DD1-8165-4E8F-8C36-5F7772B378F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9C1DD1-8165-4E8F-8C36-5F7772B378F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9C1DD1-8165-4E8F-8C36-5F7772B378F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780F9843-E508-450A-BAFD-344929A735F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780F9843-E508-450A-BAFD-344929A735F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780F9843-E508-450A-BAFD-344929A735F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780F9843-E508-450A-BAFD-344929A735F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

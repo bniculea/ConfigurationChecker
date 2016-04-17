@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using ConfigurationChecker.Controller;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace ConfigurationChecker
 {
@@ -23,6 +12,22 @@ namespace ConfigurationChecker
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnBrowse_OnClick(object sender, RoutedEventArgs e)
+        {
+            CommonOpenFileDialog folderPickerDialog = new CommonOpenFileDialog("Select Folder");
+            folderPickerDialog.IsFolderPicker = true;
+            CommonFileDialogResult folderDialogResult = folderPickerDialog.ShowDialog(this);
+            if(folderDialogResult == CommonFileDialogResult.Ok)
+            {
+                string directoryName = folderPickerDialog.FileName;
+                string pattern = @"^.*\.(dll)$";
+                DataHandler dataHandler = new DataHandler();
+                dataHandler.Update(directoryName, pattern);
+                DataGridContent.DataContext = dataHandler;
+                DataGridContent.ItemsSource = dataHandler.Content;
+            }
         }
     }
 }

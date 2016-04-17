@@ -1,0 +1,5 @@
+C:\GitRepositories\ConfigurationChecker\ConfigurationChecker\AssemblyInfoReader\bin\Debug\AssemblyInfoReader.dll
+C:\GitRepositories\ConfigurationChecker\ConfigurationChecker\AssemblyInfoReader\bin\Debug\AssemblyInfoReader.pdb
+C:\GitRepositories\ConfigurationChecker\ConfigurationChecker\AssemblyInfoReader\obj\Debug\AssemblyInfoReader.csprojResolveAssemblyReference.cache
+C:\GitRepositories\ConfigurationChecker\ConfigurationChecker\AssemblyInfoReader\obj\Debug\AssemblyInfoReader.dll
+C:\GitRepositories\ConfigurationChecker\ConfigurationChecker\AssemblyInfoReader\obj\Debug\AssemblyInfoReader.pdb
